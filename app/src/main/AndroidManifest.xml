@@ -25,6 +25,13 @@
             </intent-filter>
         </activity>
 
+        <!-- 拦截对话框活动 -->
+        <activity
+            android:name=".ui.BlockDialog"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"
+            android:excludeFromRecents="true" />
+
         <!-- 无障碍服务 -->
         <service
             android:name=".services.AppBlockerAccessibilityService"
