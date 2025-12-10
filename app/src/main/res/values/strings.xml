@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">应用启动拦截器</string>
+    <string name="accessibility_service_description">此服务用于拦截指定应用的启动。仅在用户授权的情况下工作，用于个人设备管理。</string>
+    
+    <!-- 界面文本 -->
+    <string name="title_main">应用启动拦截器</string>
+    <string name="subtitle_main">管理哪些应用可以被启动</string>
+    <string name="btn_enable_service">启用无障碍服务</string>
+    <string name="btn_manage_apps">管理拦截应用</string>
+    <string name="btn_settings">设置</string>
+    
+    <!-- 服务状态 -->
+    <string name="service_enabled">无障碍服务已启用</string>
+    <string name="service_disabled">无障碍服务未启用</string>
+    <string name="service_permission_needed">需要无障碍服务权限</string>
+    
+    <!-- 应用管理 -->
+    <string name="title_app_management">应用管理</string>
+    <string name="search_apps_hint">搜索应用...</string>
+    <string name="block_app">拦截</string>
+    <string name="unblock_app">取消拦截</string>
+    <string name="no_apps_blocked">暂无拦截的应用</string>
+    <string name="apps_blocked_count">已拦截 %d 个应用</string>
+    
+    <!-- 拦截提示 -->
+    <string name="app_blocked_title">应用已被拦截</string>
+    <string name="app_blocked_message">应用 %s 已被拦截，无法启动</string>
+    <string name="btn_unblock_temporarily">临时允许</string>
+    <string name="btn_open_settings">打开设置</string>
+    
+    <!-- 免责声明 -->
+    <string name="disclaimer_title">免责声明</string>
+    <string name="disclaimer_content">
+        本应用仅用于个人设备管理目的。使用者需同意以下条款：
+        
+
+1. 本应用仅应用于您自己的设备或您有管理权限的设备
+        
+2. 不得将本应用用于恶意目的或未经授权的设备控制
+        
+3. 使用者需对使用本应用的行为负全部责任
+        
+4. 开发者不对本应用的误用或滥用承担任何责任
+        
+
+请负责任地使用此工具。
+    </string>
+    <string name="btn_accept">接受</string>
+    <string name="btn_decline">拒绝</string>
+    
+    <!-- 权限请求 -->
+    <string name="permission_overlay_title">需要覆盖窗口权限</string>
+    <string name="permission_overlay_message">为了显示拦截提示，需要覆盖窗口权限</string>
+    <string name="permission_accessibility_title">需要无障碍服务权限</string>
+    <string name="permission_accessibility_message">为了拦截应用启动，需要启用无障碍服务</string>
+    <string name="btn_grant">授予权限</string>
+    <string name="btn_cancel">取消</string>
+</resources>
